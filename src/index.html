@@ -5,46 +5,114 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Nunito:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
     <title>Best Tour Plan - Hotel Booking</title>
 </head>
 
 <body>
-    <header class="header">
+    <header class="navbar">
         <div class="container">
-            <div class="header_top">
+            <div class="navbar_top">
                 <a href="#" class="logo">
-                    <img src="img/Best tour plan.png" alt="Best tour plan" class="logo_image">
+                    <img src="img/Best tour plan.png" alt="Best tour plan" class="logo-image">
                 </a>
 
-                <form action="#" class="search">
-                    <input type="text" class="search_input">
+                <form action="#" class="search navbar_search">
+                    <input type="text" class="search_input" placeholder="Search Location">
                     <button class="search_button">
                         <img src="img/search.png" alt="icon: search">
                     </button>
                 </form>
 
-                <a href="#" class="user">
+                <a href="#" class="user navbar_user">
                     <img src="img/Ellipse 1.png" alt="user avatar" class="user_avatar">
+
+
+                    <span class="user_name">Nathan</span>
                 </a>
-
-                <span class="user_name">Nathan</span>
-
+                <button class="menu_button navbar_top_menu_button">
+                    <span class="menu_button_line"></span>
+                    <span class="menu_button_line"></span>
+                    <span class="menu_button_line"></span>
+                </button>
             </div>
-            <!-- /.header_top -->
+            <!-- /.navbar_top -->
 
-            <ul class="header_menu">
-                <li class="header_menu_item"><a href="#" class="header_menu_link">All deals</a></li>
-                <li class="header_menu_item"><a href="#" class="header_menu_link">hotels</a></li>
-                <li class="header_menu_item"><a href="#" class="header_menu_link">activities</a></li>
-                <li class="header_menu_item"><a href="#" class="header_menu_link">Hotel day packages</a></li>
-                <li class="header_menu_item"><a href="#" class="header_menu_link">restaurants</a></li>
-                <li class="header_menu_item"><a href="#" class="header_menu_link">events</a></li>
-                <li class="header_menu_item"><a href="#" class="header_menu_link">rodrigues</a></li>
 
-            </ul>
         </div>
         <!-- /.container -->
+        <div class="navbar_bottom">
+            <div class="container">
+                <ul class="navbar_menu">
+                    <li class="navbar_menu_item"><a href="#" class="navbar_menu_link">All deals</a></li>
+                    <li class="navbar_menu_item"><a href="#" class="navbar_menu_link">hotels</a></li>
+                    <li class="navbar_menu_item"><a href="#" class="navbar_menu_link">activities</a></li>
+                    <li class="navbar_menu_item"><a href="#" class="navbar_menu_link">Hotel day packages</a></li>
+                    <li class="navbar_menu_item"><a href="#" class="navbar_menu_link">restaurants</a></li>
+                    <li class="navbar_menu_item"><a href="#" class="navbar_menu_link">events</a></li>
+                    <li class="navbar_menu_item"><a href="#" class="navbar_menu_link">rodrigues</a></li>
+
+                </ul>
+            </div>
+        </div>
     </header>
+
+
+    <nav class="breadcrumb">
+        <div class="container">
+            <ol class="breadcrumb_list">
+                <li class="breadcrumb_list_item"><a class="breadcrumb_list_link" href="#">Home</a></li>
+                <li class="breadcrumb_list_item"><a class="breadcrumb_list_link" href="#">Flash Offers</a></li>
+                <li class="breadcrumb_list_item active" aria-current="page">Grand Hilton Hotel</li>
+            </ol>
+        </div>
+    </nav>
+    <section class="hotel">
+        <div class="container">
+            <div class="hotel_info">
+                <div class="hotel_info_text">
+                    <div class="hotel_wrapper">
+                        <div class="stars">
+
+                            <img src="img/star.png" alt="star">
+                            <img src="img/star.png" alt="star">
+                            <img src="img/star.png" alt="star">
+                            <img src="img/star.png" alt="star">
+                            <img src="img/star.png" alt="star">
+                        </div>
+                        <h1 class="hotel_name hotel_info_name">Grand Hilton Hotel</h1>
+                        <span class="offer hotel_info_offer">Flash offer</span>
+
+                    </div>
+
+                    <p class="hotel_description hotel_info_description">Half-Board/ All Inclusive + Complimentary
+                        Activities + Child Stays Free
+                    </p>
+
+
+
+
+                </div>
+
+                <div class="raiting hotel_info_raiting">
+                    <span class="raiting_text">
+                        User Raiting
+                    </span>
+                    <span class="raiting_counter">
+                        4.5/5
+                    </span>
+
+
+                </div>
+            </div>
+        </div>
+        <!-- /.container
+    </section> -->
 
 </body>
 

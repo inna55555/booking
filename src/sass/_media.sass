@@ -1,0 +1,72 @@
+@media ( max-width: 1200px )
+    .container
+        max-width: 960px
+@media ( max-width: 992px )
+    .container
+        max-width: 700px
+    .logo
+        width: 132px
+    .navbar
+        &_top
+            padding-top: 30px
+            padding-bottom: 30px
+        &_search
+            margin-left: auto
+            min-width: 340px
+        &_menu
+            padding-top: 22px
+            padding-bottom: 22px
+            &_link
+                font-style: 12px
+                line-height: 15
+
+@media ( max-width: 768px )
+    .container
+        max-width: 576px
+        width: 92%
+    .navbar
+        &_search,
+        &_menu,
+        &_user
+            display: none
+        &_top
+            &_menu-button
+                display: flex
+    .menu
+        &_button
+            display: flex
+            width: 16px
+            height: 11px
+            align-items: center
+            justify-content: space-between
+            flex-direction: column
+            border: none
+            background-color: #fff
+            cursor: pointer
+            &_line
+                width: 16px
+                height: 1px
+                background-color: $text-color
+    .stars
+        flex-basis: content
+        max-width: 50%
+
+    .hotel
+        &_name
+            flex-basis: 100%
+        &_wrapper
+            justify-content: space-between
+        &_info
+            &_text
+                width: 100%
+                &_name
+
+            &_raiting
+                display: none
+            &_offer
+                order: -1
+                margin-left: 0
+
+@media ( max-width: 576px )
+    .logo
+        width: 99px
